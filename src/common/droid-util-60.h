@@ -37,7 +37,7 @@
 // device will need to have an exception below (just like i9305).
 // TODO: things elegantly
 #if defined(__arm__) && !defined(DROID_DEVICE_I9305)
-#define QCOM_HARDWARE
+//#define QCOM_HARDWARE
 #endif
 
 #ifdef QCOM_BSP
